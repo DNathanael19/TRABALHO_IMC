@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Indice de Massa Corporal</title>
+    <script src="IMC.js"></script>
+    <link rel="stylesheet" href="IMC.css">
+</head>
+<body>
+    <header>
+        <h1>INDICE DE MASSA CORPORAL - IMC</h1>
+        <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+            O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+
+        <p>Quando o índice de massa corporal recomendado está excedido, é porque a pessoa pode estar numa situação de sobrepeso com tendência à obesidade ou já ter a obesidade. 
+            Portanto, o calculo pode ser feito em casa, mas, dependendo do resultado, é importante procurar um médico para avaliar o grau de sobrepeso ou obesidade. 
+            Ou o extremo oposto disso. Se o índice estiver muito abaixo da normalidade para o homem e para a mulher indica que a pessoa pode estar no estado de desnutrição, de perda expressiva de massa. 
+            E assim como a obesidade, também existem graus de magreza.</p>
+
+        <p>O IMC foi criado na década de 1830 por um estatístico belga que queria descrever quantitativamente o “homem médio” e só foi popularizado mais de um século depois, na década de 1970, pelo fisiologista norte-americano Ancel Keys.
+            Na época, as empresas de seguro de vida estimavam a gordura corporal das pessoas (e seu risco de morrer) comparando o peso delas com a de outras com a mesma altura, idade e sexo. 
+            Então, em 1972, insatisfeitos com o indicador, Keys e seus colegas realizaram um estudo com mais de 7 mil homens saudáveis e demonstraram que o IMC era mais simples e preciso do que os métodos usados pelas empresas. 
+            De acordo com JoAnn Manson, professora da escola de medicina de Harvard, o IMC “É uma ferramenta muito útil na pesquisa epidemiológica”, ou seja, para avaliar aspectos da saúde coletiva. 
+            Em grandes grupos, valores mais altos do índice são geralmente associados a um risco maior de doença cardíaca, diabetes tipo 2 e alguns tipos de câncer.
+            Como, em geral, pessoas com índice de massa corporal mais alto têm mais gordura corporal, é possível associá-lo às taxas de obesidade. 
+            Também verificou-se que IMCs muito baixos e muito altos entre a população estão associados a uma maior taxa de mortalidade precoce, enquanto as faixas “normal” e “excesso de peso” teriam menor risco de mortalidade.</p>
+
+    
+            <h1>CALCULE O SEU IMC</h1>
+    </header>
+
+    <div id="Inicio">
+
+        <div id="CalculoIMC">
+            <input type="text" id="altura" placeholder="Digite sua altura"/><br>
+            <input type="text" id="peso" placeholder="Digite seu peso"/><br>
+            <button type="button" onclick="Soma()">Calcule seu IMC</button>
+        </div>
+
+        <div id="Img">
+            <h2 id="res"></h2>
+            <img src="Imagens/tabela-imc-peso-720x267.jpg" id="img">
+        </div>
+  
+    </div>
+</body>
+</html>
