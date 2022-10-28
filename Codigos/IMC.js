@@ -1,4 +1,4 @@
-function Soma()
+function CalcularImc()
 {
     let img = document.getElementById("img");
     var peso = parseFloat(document.getElementById("peso"). value);
@@ -38,19 +38,19 @@ function Soma()
     if (document.getElementById("jovem").checked){
         document.getElementById("res").innerHTML = "Seu IMC é igual a: " + calculo;
         if (calculo < 17){
-            img.src ="Imagens/Abaixo17.jpg";
-        } 
-
-        if ((calculo >= 17) && (calculo <= 18.49)){
             img.src ="Imagens/MuitoAbaixo.jpg";
         } 
 
-        if ((calculo >= 18.5) && (calculo <= 24.99)){
+        if ((calculo >= 17) && (calculo <= 18.49)){
             img.src ="Imagens/AbaixoPeso.jpg";
         } 
 
+        if ((calculo >= 18.5) && (calculo <= 24.99)){
+            img.src ="Imagens/PesoNormal.jpg";
+        } 
+
         if ((calculo >= 25) && (calculo <= 29.99)){
-            img.src ="Imagens/PesoNormal";
+            img.src ="Imagens/AcimaPeso";
         } 
 
         if ((calculo >= 30) && (calculo <= 34.99)){
