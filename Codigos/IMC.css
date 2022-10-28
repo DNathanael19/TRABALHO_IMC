@@ -3,7 +3,26 @@
     text-align: justify;
 }
 
+header ul li{
+    margin-left: 3%;
+    color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+#ComoCalcular{
+    text-align: center;
+}
+
+#AdultoIdoso{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+#AdultoIdoso p{
+    display: flex;
+    color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 header h1{
     margin: 2%;
@@ -13,7 +32,7 @@ header h1{
 
 header p{
     margin: 2%;
-    color: dimgray;
+    color: darkslategray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -26,7 +45,7 @@ header p{
 }
 
 #CalculoIMC{
-    margin-left: 20%;
+    margin-left: 2%;
     margin-top: 3%;
 }
 
@@ -52,11 +71,11 @@ input{
     border-color: cadetblue;
     display: flex;
     border-radius: 15px;
-    color: dimgray;
+    color: darkslategray;
 }
 
 button:hover {
-    box-shadow: dimgray 0px 5px 10px;
+    box-shadow: darkslategray 0px 5px 10px;
     opacity: 1.0;
 }
 
@@ -77,4 +96,3 @@ button{
     border-radius: 15px;
     padding: 0px 20px;
 }
-
