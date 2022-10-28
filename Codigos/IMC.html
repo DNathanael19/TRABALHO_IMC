@@ -25,8 +25,39 @@
             Como, em geral, pessoas com índice de massa corporal mais alto têm mais gordura corporal, é possível associá-lo às taxas de obesidade. 
             Também verificou-se que IMCs muito baixos e muito altos entre a população estão associados a uma maior taxa de mortalidade precoce, enquanto as faixas “normal” e “excesso de peso” teriam menor risco de mortalidade.</p>
 
-    
-            <h1>CALCULE O SEU IMC</h1>
+        <p>Atualmente, o método mais utilizado ainda é o IMC (índice de massa corporal). 
+            Ele é um número adotado pela Organização Mundial da Saúde (OMS) que indica se você está com baixo peso, peso ideal, sobrepeso ou obesidade.
+            Assim, para chegar ao resultado, bastam duas informações suas: peso e altura. Veja, então, como calcular:</p>
+
+        <p id="ComoCalcular">IMC = peso (Em kg) ÷ altura²</p>
+
+        <p>Então, para interpretar o resultado, geralmente utiliza-se a seguinte tabela:</p>
+
+        <ul>
+            <li>Baixo peso muito grave: IMC abaixo de 16</li><br>
+            <li>Grave: IMC entre 16 e 16,99</li><br>
+            <li>Baixo peso: IMC entre 17 e 18,49</li><br>
+            <li>Peso normal: IMC entre 18,50 e 24,99</li><br>
+            <li>Sobrepeso: IMC entre 25 e 29,99</li><br>
+            <li>Obesidade grau I: IMC entre 30 e 34,99</li><br>
+            <li>Grau II: IMC entre 35 e 39,99</li><br>
+            <li>Obesidade grau III (obesidade mórbida): IMC maior que 40.</li>
+        </ul>
+
+        <p>A tabela de referência do IMC é utilizada para identificarmos se o resultado do cálculo está dentro dos valores esperados. 
+            Desta forma, podemos saber se a pessoa apresenta massa corporal baixa, normal ou em excesso.
+            Para a classificação do IMC em idosos, utilizamos os seguintes padrões de análise:</p>
+
+            <ul>
+                <li>Baixo peso: IMC abaixo de 21,9</li><br>
+                <li>Peso normal: IMC entre 22 e 27</li><br>
+                <li>Excesso de peso: IMC entre 27,1 e 32</li><br> 
+                <li>Obesidade grau I: IMC entre 32,1 e 37</li><br>
+                <li>Grau II: IMC entre 37,1 e 41,9</li><br>   
+                <li>Obesidade mórbida: IMC maior que 42.</li>      
+            </ul>
+            
+        <h1>CALCULE O SEU IMC</h1>
     </header>
 
     <div id="Inicio">
@@ -37,9 +68,14 @@
             <button type="button" onclick="Soma()">Calcule seu IMC</button>
         </div>
 
+        <div id="AdultoIdoso">
+            <p><input type="radio" name="botao" id="idoso"><label for="idoso">Idoso</label></p>
+            <p><input type="radio" name="botao" id="jovem"><label for="jovem">Jovem</label></p>  
+        </div>
+
         <div id="Img">
             <h2 id="res"></h2>
-            <img src="Imagens/tabela-imc-peso-720x267.jpg" id="img">
+            <img src="Imagens/Tabela.jpg" id="img">
         </div>
   
     </div>
